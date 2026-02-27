@@ -16,9 +16,11 @@ out/
 
 
 
-build/
-!build/libs/
-!build/libs/**/*.jar
+out/
+# build/           ← 注释掉或删除
+# **/build/        ← 注释掉或删除
+*.class
+.gradle/
 
 
 run/
