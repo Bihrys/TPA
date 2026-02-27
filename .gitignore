@@ -1,4 +1,3 @@
-
 .idea/
 !.idea/misc.xml
 !.idea/modules.xml
@@ -9,11 +8,17 @@
 *.ipr
 *.iws
 
+
 out/
-build/
-**/build/
 *.class
 .gradle/
+
+
+
+
+build/
+!build/libs/
+!build/libs/**/*.jar
 
 
 run/
@@ -67,7 +72,3 @@ local.properties
 gradle-app.setting
 .gradletasknamecache
 [Dd]esktop.ini
-
-
- !build/libs/
- !build/libs/*.jar
