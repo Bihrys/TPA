@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "tpa",
+  "version": "1.0.0",
+  "name": "TPA",
+  "description": "Simple Fabric TPA Mod",
+  "authors": ["BHW"],
+  "license": "MIT",
+  "environment": "*",
+
+  "entrypoints": {
+    "main": [
+      "bhw.voident.xyz.tpa.TPA"
+    ],
+    "client": [
+      "bhw.voident.xyz.tpa.client.TPAClient"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric-api": ">=0.100.7",
+    "minecraft": "1.21"
+  }
+}
