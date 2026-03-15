@@ -2,15 +2,9 @@
 
 一个简单实用的 **Minecraft Fabric 服务端模组**，提供常用的玩家传送功能，例如 **TPA、Home、Back** 等。
 
-因为 Fabric 服务端缺少简单好用的 TPA 模组，所以我写了这个模组。
+因为 Fabric 服务端没找到 TPA ，所以我写了。
 
----
 
-![demo](图片URL)
-
-> 支持 Fabric 服务端使用，轻量、简单、即装即用。
-
----
 
 # ✨ 主要功能
 
@@ -66,7 +60,7 @@
 - 期间 **移动会取消传送**
 - **受到伤害会取消传送**
 
-这样可以避免战斗中滥用传送。
+避免战斗中滥用传送。
 
 ---
 
@@ -75,13 +69,14 @@
 ### 1 克隆仓库
 
 ```bash
-git clone https://github.com/你的用户名/TPA.git
+git clone https://github.com/Bihrys/TPA.git
 ```
 
 ### 2 编译模组
 
 ```bash
-gradlew build
+windows用户双击gradlew.bat
+linux用户应该不需要我教hhh
 ```
 
 ### 3 安装模组
@@ -110,8 +105,8 @@ server/
 # 📦 适用环境
 
 - Minecraft **Fabric Server**
-- Fabric Loader **0.15+**
-- Fabric API **0.102.0+**
+- Fabric Loader **0.18+**
+- Fabric API **0.105.0+**
 
 ---
 
